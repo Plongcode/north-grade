@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>North Garage — Элитный детейлинг и тюнинг | Премиум-центр</title>
+<meta name="description" content="North Garage — эксклюзивный детейлинг-центр премиум-класса. Профессиональная полировка, керамическое покрытие, оклейка плёнкой, химчистка и тонировка элитных автомобилей. Запишитесь онлайн!">
+<meta name="keywords" content="детейлинг, тюнинг, полировка, керамика, оклейка плёнкой, химчистка, тонировка, North Garage, элитный детейлинг, премиум детейлинг Москва">
+<meta property="og:title" content="North Garage — Элитный детейлинг-центр премиум-класса">
+<meta property="og:description" content="Эксклюзивный уход за автомобилями премиум-класса. Детейлинг, полировка, керамика, оклейка плёнкой на уровне мировых стандартов.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://northgarage.ru">
+<meta property="og:image" content="/static/images/og-image.jpg">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" type="image/svg+xml" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div id="loader" class="loader">
+    <div class="loader-content">
+        <div class="loader-logo">N<span class="text-gold">G</span></div>
+        <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+        <p class="loader-text">Загрузка...</p>
+    </div>
+</div>
+
+<button id="scrollTop" class="scroll-top" aria-label="Наверх">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 15l-6-6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<button id="tgContact" class="tg-contact" aria-label="Telegram">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.127.087.512.086.512-.074.79-.406 2.718-.573 3.716-.097.58-.278.748-.454.72-.352-.054-.618-.181-.954-.302-.574-.209-1.01-.34-1.624-.568-.637-.237-.245-.492.12-.746.085-.06.757-.694 1.53-1.416.17-.16.21-.26.145-.346a.413.413 0 00-.323-.12c-.086 0-.214.033-.343.066-.128.033-2.054 1.357-2.617 1.738-.257.174-.542.255-.823.237-.302-.02-.578-.091-.84-.157-.335-.086-.646-.176-.86-.22-.283-.059-.487-.088-.56-.274-.055-.138.017-.294.078-.383.057-.083.357-.217.357-.217s2.703-1.14 3.953-1.668c.977-.412 1.524-.613 2.008-.627z"/></svg>
+</button>
+
+<nav class="navbar" id="navbar">
+    <div class="container nav-container">
+        <a href="#" class="nav-logo">North<span class="text-gold">Garage</span></a>
+        <div class="nav-links" id="navLinks">
+            <a href="#services" data-i18n="nav_services">Услуги</a>
+            <a href="#works" data-i18n="nav_works">Наши работы</a>
+            <a href="#compare" data-i18n="nav_compare">До/После</a>
+            <a href="#pricing" data-i18n="nav_pricing">Прайс</a>
+            <a href="#booking" data-i18n="nav_booking">Запись</a>
+            <a href="#contacts" data-i18n="nav_contacts">Контакты</a>
+        </div>
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="lang-switcher">
+                <button class="lang-btn" data-lang="ru">RU</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+        <span class="hero-badge" data-i18n="hero_badge">Премиум детейлинг</span>
+        <h1 class="hero-title" data-i18n="hero_title">Искусство<br>абсолютного<br><span class="text-gold text-glow-strong">совершенства</span></h1>
+        <p class="hero-desc" data-i18n="hero_desc">Профессиональный детейлинг и тюнинг премиальных автомобилей в Москве. Мы возвращаем блеск и защищаем ваш автомобиль.</p>
+        <div class="hero-buttons">
+            <a href="#booking" class="btn btn-primary btn-lg" data-i18n="hero_btn_calc">Рассчитать стоимость</a>
+            <a href="#works" class="btn btn-outline btn-lg" data-i18n="hero_btn_works">Наши работы</a>
+        </div>
+        <div class="hero-stats">
+            <div class="hero-stat"><span class="hero-stat-num">500+</span><span class="hero-stat-label" data-i18n="stat_cars">Автомобилей</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">7</span><span class="hero-stat-label" data-i18n="stat_years">Лет опыта</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">99%</span><span class="hero-stat-label" data-i18n="stat_clients">Довольных клиентов</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="services section" id="services">
+    <div class="services-bg"></div>
+    <div class="container">
+        <div class="section-header">
+            <div class="section-ornament"></div>
+            <p class="section-sub" data-i18n="services_badge">Что мы делаем</p>
+            <h2 class="section-title" data-i18n="services_title">Наши <span class="text-gold">услуги</span></h2>
+            <p class="section-desc" data-i18n="services_desc">Полный спектр услуг по уходу за премиальными автомобилями</p>
+        </div>
+        <div class="services-grid" id="servicesGrid"></div>
+    </div>
+</section>
+
+<section class="works section" id="works">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-ornament"></div>
+            <p class="section-sub" data-i18n="works_badge">Портфолио</p>
+            <h2 class="section-title" data-i18n="works_title">Наши <span class="text-gold">работы</span></h2>
+            <p class="section-desc" data-i18n="works_desc">Результаты, которыми мы гордимся</p>
+        </div>
+        <div class="works-grid" id="worksGrid"></div>
+    </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <img class="lightbox-img" id="lightboxImg" alt="" loading="lazy">
+    <div class="lightbox-caption"></div>
+</div>
+
+<section class="compare section" id="compare">
+    <div class="compare-bg"></div>
+    <div class="container">
+        <div class="section-header">
+            <div class="section-ornament"></div>
+            <p class="section-sub" data-i18n="compare_badge">До/После</p>
+            <h2 class="section-title" data-i18n="compare_title">Реальный <span class="text-gold">результат</span></h2>
+            <p class="section-desc" data-i18n="compare_desc">Проведите ползунком, чтобы увидеть разницу</p>
+        </div>
+        <div class="compare-slider" id="compareSlider">
+            <div class="compare-image compare-before">
+                <img src="/static/images/porsche-before.jpg" alt="До" loading="lazy">
+                <div class="compare-overlay before-overlay">
+                    <div class="compare-specs">
+                        <span class="spec-label">До детейлинга</span>
+                        <span class="spec-item">● ЛКП: царапины, голограммы</span>
+                        <span class="spec-item">● Салон: загрязнения</span>
+                        <span class="spec-item">● Диски: тормозная пыль</span>
+                    </div>
+                </div>
+            </div>
+            <div class="compare-image compare-after">
+                <img src="/static/images/porsche-992-turbo-s-hero.jpg" alt="После" loading="lazy">
+                <div class="compare-overlay after-overlay">
+                    <div class="compare-specs">
+                        <span class="spec-label">После детейлинга</span>
+                        <span class="spec-item">● Глубокий блеск +50%</span>
+                        <span class="spec-item">● Керамика 5 лет защиты</span>
+                        <span class="spec-item">● Салон как новый</span>
+                    </div>
+                </div>
+            </div>
+            <div class="compare-handle" id="compareHandle">
+                <div class="handle-ring"></div>
+                <div class="handle-dot"></div>
+            </div>
+            <div class="compare-labels">
+                <span class="compare-label compare-label-before" data-i18n="compare_label_before">До</span>
+                <span class="compare-label compare-label-after" data-i18n="compare_label_after">После</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pricing section" id="pricing">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-ornament"></div>
+            <p class="section-sub" data-i18n="pricing_badge">Прайс-лист</p>
+            <h2 class="section-title" data-i18n="pricing_title">Стоимость <span class="text-gold">услуг</span></h2>
+            <p class="section-desc" data-i18n="pricing_desc">Прозрачные цены без скрытых платежей</p>
+        </div>
+        <div class="pricing-grid" id="pricingGrid"></div>
+    </div>
+</section>
+
+<section class="calculator section" id="calculator">
+    <div class="calc-bg"></div>
+    <div class="container">
+        <div class="section-header">
+            <div class="section-ornament"></div>
+            <p class="section-sub" data-i18n="calc_badge">Калькулятор</p>
+            <h2 class="section-title" data-i18n="calc_title">Рассчитайте <span class="text-gold">стоимость</span></h2>
+        </div>
+        <div class="calc-card">
+            <div class="calc-row">
+                <label class="calc-label" data-i18n="calc_service">Выберите услугу</label>
+                <select class="calc-select" id="calcService">
+                    <option value="Полировка" data-i18n="calc_polish">Полировка — от $180</option>
+                    <option value="Керамика" data-i18n="calc_ceramic">Керамика — от $350</option>
+                    <option value="Оклейка плёнкой" data-i18n="calc_film">Оклейка плёнкой — от $800</option>
+                    <option value="Химчистка" data-i18n="calc_clean">Химчистка — от $250</option>
+                    <option value="Тонировка" data-i18n="calc_tint">Тонировка — от $200</option>
+                    <option value="Детейлинг" data-i18n="calc_detail">Детейлинг — от $500</option>
+                </select>
+            </div>
+            <div class="calc-row">
+                <label class="calc-checkbox">
+                    <input type="checkbox" id="calcComplex">
+                    <span class="calc-checkmark"></span>
+                    <span data-i18n="calc_complex">Комплекс услуг (скидка 15%)</span>
+                </label>
+            </div>
+            <div class="calc-result">
+                <span class="calc-result-label" data-i18n="calc_total">Итого:</span>
+                <span class="calc-result-price" id="calcResult">$0</span>
+            </div>
+            <button class="btn btn-primary calc-btn" id="calcBtn" data-i18n="calc_btn">Пересчитать</button>
+        </div>
+    </div>
+</section>
+
+<section class="booking section" id="booking">
+    <div class="booking-bg"></div>
+    <div class="container">
+        <div class="section-header">
+            <div class="section-ornament"></div>
+            <p class="section-sub" data-i18n="booking_badge">Запись</p>
+            <h2 class="section-title" data-i18n="booking_title">Запишитесь <span class="text-gold">онлайн</span></h2>
+            <p class="section-desc" data-i18n="booking_desc">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+        </div>
+        <form class="booking-form" id="bookingForm">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="formName" placeholder=" " required>
+                    <label class="form-label" for="formName" data-i18n="form_name">Имя *</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-input" id="formPhone" placeholder=" " required>
+                    <label class="form-label" for="formPhone" data-i18n="form_phone">Телефон *</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="formCar" placeholder=" ">
+                    <label class="form-label" for="formCar" data-i18n="form_car">Марка автомобиля</label>
+                </div>
+                <div class="form-group">
+                    <select class="form-input form-select" id="formService">
+                        <option value="" data-i18n="form_service_placeholder">Выберите услугу</option>
+                        <option value="Полировка" data-i18n="form_service_polish">Полировка</option>
+                        <option value="Керамика" data-i18n="form_service_ceramic">Керамика</option>
+                        <option value="Оклейка плёнкой" data-i18n="form_service_film">Оклейка плёнкой</option>
+                        <option value="Химчистка" data-i18n="form_service_clean">Химчистка</option>
+                        <option value="Тонировка" data-i18n="form_service_tint">Тонировка</option>
+                        <option value="Детейлинг" data-i18n="form_service_detail">Детейлинг</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="date" class="form-input" id="formDate" placeholder=" ">
+                    <label class="form-label" for="formDate" data-i18n="form_date">Желаемая дата</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" id="formComment" placeholder=" ">
+                    <label class="form-label" for="formComment" data-i18n="form_comment">Комментарий</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit" id="formSubmit">
+                <span class="btn-text" data-i18n="form_submit">Отправить заявку</span>
+                <span class="btn-loader"></span>
+            </button>
+            <div class="form-success" id="formSuccess">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#10b981" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <p data-i18n="form_success">Спасибо! Ваша заявка принята. Мы свяжемся с вами в ближайшее время.</p>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="contacts section" id="contacts">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-ornament"></div>
+            <p class="section-sub" data-i18n="contacts_badge">Контакты</p>
+            <h2 class="section-title" data-i18n="contacts_title">Свяжитесь <span class="text-gold">с нами</span></h2>
+        </div>
+        <div class="contacts-grid">
+            <div class="contact-card">
+                <div class="contact-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <h3 class="contact-title">Телефон</h3>
+                <a href="tel:+74951234567" class="contact-link">+7 (495) 123-45-67</a>
+                <a href="tel:+79991234567" class="contact-link">+7 (999) 123-45-67</a>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg></div>
+                <h3 class="contact-title" data-i18n="contact_address">Адрес</h3>
+                <p class="contact-text">г. Москва, ул. Автомобильная, д. 15</p>
+                <p class="contact-text" data-i18n="contact_work_hours">Пн-Сб: 10:00 - 20:00</p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <h3 class="contact-title">Messenger</h3>
+                <a href="https://t.me/northgarage" target="_blank" rel="noopener" class="contact-link">Telegram</a>
+                <a href="https://wa.me/79991234567" target="_blank" rel="noopener" class="contact-link">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map-section">
+    <div class="map-container">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexample&source=constructor" width="100%" height="400" frameborder="0" allowfullscreen loading="lazy" title="Карта"></iframe>
+    </div>
+</section>
+
+<div class="cookie-banner" id="cookieBanner">
+    <p class="cookie-text" data-i18n="cookie_text">Мы используем cookie для улучшения работы сайта. Продолжая использовать сайт, вы соглашаетесь с этим.</p>
+    <button class="btn btn-primary btn-sm" id="cookieAccept" data-i18n="cookie_accept">Принять</button>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">North<span class="text-gold">Garage</span></a>
+                <p class="footer-desc" data-i18n="footer_desc">Премиальный детейлинг и тюнинг автомобилей в Москве. Доверьте свой автомобиль профессионалам.</p>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-title" data-i18n="footer_nav">Навигация</h4>
+                <a href="#services" data-i18n="nav_services">Услуги</a>
+                <a href="#works" data-i18n="nav_works">Наши работы</a>
+                <a href="#pricing" data-i18n="nav_pricing">Прайс</a>
+                <a href="#contacts" data-i18n="nav_contacts">Контакты</a>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-title" data-i18n="footer_services">Услуги</h4>
+                <a href="#services" data-i18n="footer_polish">Полировка</a>
+                <a href="#services" data-i18n="footer_ceramic">Керамика</a>
+                <a href="#services" data-i18n="footer_film">Оклейка плёнкой</a>
+                <a href="#services" data-i18n="footer_detailing">Детейлинг</a>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-title" data-i18n="footer_contacts">Контакты</h4>
+                <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                <a href="mailto:info@northgarage.ru">info@northgarage.ru</a>
+                <a href="https://t.me/northgarage" target="_blank" rel="noopener">Telegram</a>
+                <a href="https://wa.me/79991234567" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 North Garage. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="/static/js/script.js"></script>
+</body>
+</html>
